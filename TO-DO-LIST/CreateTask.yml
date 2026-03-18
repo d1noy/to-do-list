@@ -1,0 +1,23 @@
+info:
+  name: CreateTask
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://127.0.0.1:8000/api/tasks/create
+  body:
+    type: json
+    data: |-
+      {
+        "title": "Abobbyyss",
+        "description": "512552",
+        "status": "done"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,23 @@
+info:
+  name: UpdateTask
+  type: http
+  seq: 3
+
+http:
+  method: PUT
+  url: http://127.0.0.1:8000/api/tasks/2/update
+  body:
+    type: json
+    data: |-
+      {
+        "title": "Сделать тестовое задание",
+        "description": "Выполнено",
+        "status": "Выполнено"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
