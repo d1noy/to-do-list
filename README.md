@@ -15,3 +15,5 @@ api/tasks/(ID)/update
 api/tasks/(ID)/delete
 
 Делал апи через bruno, использовал mysql, require сделал
+
+ПРИКРЕПИЛ НА ВСЯКИЙ СЛУЧАЙ API НАЗЫВАЕТСЯ TO-DO-LIST
